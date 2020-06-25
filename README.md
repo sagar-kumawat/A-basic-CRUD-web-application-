@@ -10,7 +10,7 @@ Node.js CRUD application based on the MongoDB database design and Express.js fra
  * ```npm install  ``` to install all required dependencies
 
 * Install MongoDB Compass([Instructions](https://www.mongodb.com/products/compass)) and run it.
-* 
+
 ## Dependencies
 * [express](https://www.npmjs.com/package/express) -The server of handling and routing HTTP requests
 * [express-handlebars](https://www.npmjs.com/package/express-handlebars): A Handlebars view engine for Express which doesn't suck.
