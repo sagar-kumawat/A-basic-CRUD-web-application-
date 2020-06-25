@@ -1,0 +1,24 @@
+<h2><a class="btn btn-secondary" href="/product"><i class="fa fa-plus"></i> Add New Product</a></h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Product Name</th>
+            <th>Product Price</th>
+            <th>Product Id</th>
+        </tr>
+    </thead >
+    <tbody style="background-color: lightcyan">
+        {{#each list}}
+        <tr> 
+            <td>{{this.ProductName}}</td>
+            <td>{{this.ProductPrice}}</td>
+            <td>{{this.ProductId}}</td> 
+            <td>
+               <a href="/product/{{this._id}}"><i class="fa fa-pencil fa-lg" aria-hidden="true"></i></a>
+                <a href="/product/delete/{{this._id}}" onclick="return confirm('do you actully want to remove this ?');"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></a>
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+    
+</table>
