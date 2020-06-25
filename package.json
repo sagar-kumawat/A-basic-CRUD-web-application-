@@ -5,7 +5,6 @@
   "main": "app.js",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "expres": "0.0.5",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.0",
     "mongoose": "^5.3.4"
@@ -17,6 +16,6 @@
   "scripts": {
     "test": "nodemon app.js"
   },
-  "author": "Sagar",
-  "license": "ISC"
+  "author": "",
+  "license": ""
 }
